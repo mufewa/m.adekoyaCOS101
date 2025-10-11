@@ -15,7 +15,7 @@ fn main() {
 	let acer_q:f64 = 1.0;
 
 	// Total sum of sales
-	let total_sales = toshiba + mac + hp + dell + acer;
+	let total_sales = (toshiba*toshiba_q) + (mac*mac_q) + (hp*hp_q) + (dell*dell_q) + (acer*acer_q);
 	println!("The Sum of the Sales Record is ₦{:.2}", total_sales);
 
 	// Total quantity
