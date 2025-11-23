@@ -48,6 +48,6 @@ fn main() {
     println!("Item : {} ({})", name, code);
     println!("Price: N{}", price);
     println!("Qty  : {}", qty);
-    println!("Total: N{}", total);
+    println/--n-   !("Total: N{}", total);
     println!("Thank you!");
 }
